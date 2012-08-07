@@ -17,9 +17,9 @@ hi Normal       ctermfg=250 ctermbg=234
 hi LineNr       ctermfg=239 ctermbg=234
 hi NonText      ctermfg=234 ctermbg=234
 
-hi VertSplit    ctermfg=237 ctermbg=235 cterm=none
-hi StatusLine   ctermfg=249 ctermbg=235 cterm=underline
-hi StatusLineNC ctermfg=243 ctermbg=235 cterm=none
+hi VertSplit    ctermfg=237 ctermbg=237 cterm=none
+hi StatusLine   ctermfg=254 ctermbg=237 cterm=none
+hi StatusLineNC ctermfg=243 ctermbg=237 cterm=none
 
 hi DiffDelete   ctermfg=234 ctermbg=233
 hi DiffAdd      ctermbg=236
@@ -33,7 +33,7 @@ hi Visual       ctermfg=234 ctermbg=122
 hi Folded       ctermfg=244 ctermbg=235
 hi FoldColumn   ctermfg=244 ctermbg=234
 
-hi IncSearch    ctermfg=234 ctermbg=214 cterm=underline
+hi IncSearch    ctermfg=234 ctermbg=214 cterm=none
 hi Search       ctermfg=234 ctermbg=214 cterm=none
 
 hi ModeMsg      ctermfg=117 ctermbg=234 cterm=bold
@@ -57,9 +57,9 @@ if version >= 700 " Vim 7.x specific colors
 
     hi MatchParen   ctermfg=196 ctermbg=234 cterm=bold,reverse
 
-    hi Tabline      ctermfg=245 ctermbg=235 cterm=underline
+    hi Tabline      ctermfg=248 ctermbg=237 cterm=none
     hi TablineSel   ctermfg=250 ctermbg=234 cterm=bold
-    hi TablineFill  ctermfg=250 ctermbg=237 cterm=underline
+    hi TablineFill  ctermfg=250 ctermbg=237 cterm=none
 
     hi Pmenu        ctermfg=250 ctermbg=235 cterm=none
     hi PmenuSel     ctermfg=117 ctermbg=234 cterm=underline
@@ -77,7 +77,7 @@ if version >= 703 " Vim 7.3 specific colors
 endif
 
 " syntax highlighting groups
-hi Comment    ctermfg=240 ctermbg=234
+hi Comment    ctermfg=242 ctermbg=234
 hi Constant   ctermfg=086 ctermbg=234
 hi Identifier ctermfg=080 ctermbg=234 cterm=bold
 hi String     ctermfg=074 ctermbg=234
@@ -91,5 +91,3 @@ hi Number     ctermfg=086 ctermbg=234
 hi Ignore     ctermfg=214 ctermbg=234
 hi Todo       ctermfg=196 ctermbg=234
 hi Exception  ctermfg=080 ctermbg=234 cterm=bold
-
-"vim: sw=4
